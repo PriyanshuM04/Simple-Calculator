@@ -33,27 +33,6 @@ class Calculator:
 
 
 if __name__ == "__main__":
-    # try:
-    #     num1 = float(input("Number = "))
-    #     oper = input("Operator(+,-,*,/,^): ")
-    #     num2 = float(input("Number = "))
-    #
-    #     calc = Calculator(num1, num2, oper)
-    #     operators = {'+': "calc.add()", '-': "calc.subtract()", '*': "calc.multiply()", '/': "calc.divide()", '^': "calc.power()"}
-    #
-    #     for (a,b) in operators:
-    #         if oper == a:
-    #             result = b
-    #             num1 = result
-    #         elif oper == '=':
-    #             print(num1)
-    #         else:
-    #             print("Invalid Operator!")
-    #             print(num1)
-    #
-    # except Exception:
-    #     print("Some Error Occured!")
-
     operators = {'+': "calc.add()", '-': "calc.subtract()", '*': "calc.multiply()", '/': "calc.divide()",
                  '^': "calc.power()"}
     result = 0
