@@ -28,8 +28,6 @@ class Calculator:
         result = self.num1 ** self.num2
         return result
 
-    def matrix(self):
-        pass
 
 
 if __name__ == "__main__":
