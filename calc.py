@@ -33,9 +33,8 @@ class Calculations():
 
 class Calculator():
     def __init__(self):
-        
-        methods = Calculations(self.textarea())
-        # methods.add()
+        self.textarea()
+        methods = Calculations()
         
     def textarea(self):
         self.initial_value = float(input())
